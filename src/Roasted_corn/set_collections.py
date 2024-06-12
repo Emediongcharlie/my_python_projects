@@ -35,7 +35,7 @@ def intersection_in_set(set1,set2):
     result = set1.intersection(set2)
     return result
 
-print(intersection_in_set(number1,number2))
+print(intersection_in_set(number1, number2))
 
 def union_in_set(set1,set2):
 

@@ -7,7 +7,7 @@ def count_random_numbers():
     random.seed(50)
 
     for numbers in range(10):
-        random_number = random.randint(1, 50)
+        random_number = random.randrange(1, 50)
         numbers_list.append(random_number)
     return numbers_list
 
